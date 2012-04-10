@@ -1,0 +1,12 @@
+Here is a library for controlling SSD1306 based displays with an arduino. This repo is related
+to my blog post at http://www.dgkelectronics.com/using-a-neat-little-oled-display-with-an-arduino/
+I will most likely split the library (when I get around to it) to just the interface part and 
+separate font handler/graphics core.
+
+If you want to use the demo in the arduino_oled_demo folder you need to copy the library and
+font files to the same folder so you can compile it.
+
+Compiles with Arduino 1.0 and avr-gcc 4.5.3, and currently just 128x32 pixel displays are 
+supported. Tested with UG-2832HSWEG04 -type OLED display.
+
+-Kalle Hyvönen, http://www.dgkelectronics.com
